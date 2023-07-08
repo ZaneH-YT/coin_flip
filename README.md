@@ -1,21 +1,19 @@
 # CoinFlip
 
-**TODO: Add description**
+## Setup
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `coin_flip` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:coin_flip, "~> 0.1.0"}
-  ]
-end
+```bash
+$ git clone git@github.com:ZaneH-YT/coin_flip.git
+$ cd coin_flip
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/coin_flip>.
+## Run
 
+```bash
+$ iex -S mix
+...
+iex(1)> CoinFlip.flip
+:heads
+iex(2)> CoinFlip.flip
+:tails
+```
